@@ -7,7 +7,7 @@ basic.forever(function () {
     )
     if (distance > 0 && distance <= 5) {
         pins.servoWritePin(AnalogPin.P1, 90)
-        basic.pause(500)
+        basic.pause(3000)
     } else {
         pins.servoWritePin(AnalogPin.P1, 3)
     }
